@@ -96,6 +96,7 @@
             btnactualizar.TabIndex = 5;
             btnactualizar.Text = "Actualizar";
             btnactualizar.UseVisualStyleBackColor = true;
+            btnactualizar.Click += btnactualizar_Click;
             // 
             // btneliminar
             // 
@@ -106,6 +107,7 @@
             btneliminar.TabIndex = 6;
             btneliminar.Text = "Eliminar";
             btneliminar.UseVisualStyleBackColor = true;
+            btneliminar.Click += btneliminar_Click;
             // 
             // titulo
             // 
